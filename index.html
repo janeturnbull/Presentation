@@ -1,1 +1,173 @@
-Here is some text
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Celsius to Farenheit Converter</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Celsius to Farenheit Converter">
+  <meta name="author" content="Jane T">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Celsius to Farenheit Converter</h1>
+    <h2></h2>
+    <p>Jane T<br/>Consulting Company</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>When traveling outside of the USA, have you ever wondered what the temperature was like outside so you knew what to wear? </p>
+
+<p>The USA may be the only place on earth that still quotes temperatures in Farenheit, so when in Europe or elswhere, a lot of us have no idea exactly how hot or cold it is when we hear the weather forecast.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>The Solution</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>It would be nice to quickly translate those Celsius temperatures to Farenheit so that we exactly know the temperature in order to dress appropriately.</p>
+
+<p>Enter the Celsius to Farenheit converter, the portable use anytime, use anywhere tool that gives you an 
+accurate Farentheit temperature when you enter in the Celsius temperature.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How it Works</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Pull the app up on your phone or laptop from <a href="https://jturnbull.shinyapps.io/project/">https://jturnbull.shinyapps.io/project/</a>.   </p>
+
+<p>Enter the Celsius temperate in the textbox and then press the Submit button.</p>
+
+<p>The equivalent Farenheit temperature will be calculated and displayed in the box labelled &quot;Which resulted in a conversion to Farenheit of&quot;.</p>
+
+<p>Now you know what to wear outside.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Here is the R code which is run for a Celsius temperature of 0 and 100</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">temp&lt;-0
+farenheit &lt;- (temp*9/5) + 32
+farenheit
+</code></pre>
+
+<pre><code>## [1] 32
+</code></pre>
+
+<pre><code class="r">temp&lt;-100
+farenheit &lt;- (temp*9/5) + 32
+farenheit
+</code></pre>
+
+<pre><code>## [1] 212
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>My next app with take a Farenheit temperature and convert it to Celsius</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Thank you for your support!!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The Solution'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How it Works'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Here is the R code which is run for a Celsius temperature of 0 and 100'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='My next app with take a Farenheit temperature and convert it to Celsius'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
